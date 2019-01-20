@@ -13,6 +13,7 @@
         <!-- Bootstrap core CSS -->
 
         <!-- Custom styles for this template -->
+        <link href="reset.css" rel="stylesheet">
         <link href="style.css" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -48,10 +49,10 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.google.com/" id="link1">PROJECTS<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#about" id="link1">ABOUT<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.google.com/" id="link2">ABOUT</a>
+                            <a class="nav-link" href="#projects" id="link2">PROJECTS</a>
                         </li>
                     </ul>
                 </div>
@@ -71,10 +72,10 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class ="col-md-5" id="profile-pic" data-aos="fade-in" data-aos-ease="ease-in" data-aos-duration="1500" data-aos-delay="100">
-                        <img id = "profile" src="pictures/big%20face.jpg" alt ="Profile Pic" style ="width: 90%">
+                    <div class ="col-md-5 col-sm-5 col-xs-5" id="profile-pic" data-aos="fade-in" data-aos-ease="ease-in" data-aos-duration="1500" data-aos-delay="100">
+                        <img id = "profile" src="pictures/big%20face.jpg" alt ="Profile Pic">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-sm-6 col-xs-6">
                         <div data-aos="fade-in" data-aos-ease="ease-in" data-aos-duration="1500" data-aos-delay="100">
                             <p>
                             I'm a <span class="highlight-name">Computer Science</span> student at the University of Waterloo looking for an internship for Summer 2019.
@@ -94,8 +95,10 @@
                     </div>
                 </div>
                 <div class="row skills" data-aos="fade-in" data-aos-ease="ease-in" data-aos-duration="1500" data-aos-delay="300">
-                    <p><span class="highlight-name">Languages</span>: Python - Java - Visual Basic - Racket (Scheme) - HTML - CSS - JavaScript</p>
-                    <p><span class="highlight-name">Tools</span>: Android Studio - Git - Node.js - Bootstrap </p>
+                    <div class="col-md-12">
+                        <p><span class="highlight-name">Languages</span>: Python - Java - Visual Basic - Racket (Scheme) - HTML - CSS - JavaScript</p>
+                        <p><span class="highlight-name">Tools</span>: Android Studio - Git - Node.js - Bootstrap </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -151,29 +154,58 @@
                 <div class="row">
                     <div class="col-md-12" id="project1">
                         <h4 class="project-title" data-aos="fade-in" data-aos-ease="ease-in" data-aos-duration="1500">
-                            Stock Sentiment <span class="purpose">&#8212 MLH Local Hack Day 2018</span>
+                            Bluetooth Car <span class="purpose">&#8212 Engineering Club</span>
                         </h4>
                         <h5 class="description" data-aos="fade-in" data-aos-ease="ease-in" data-aos-duration="1500">
-                            Web scraper built with <span class="highlight-name">Python</span> and <span class="highlight-name">Azure Text Analysis</span> that analyze public sentiment through Nasdaq.com news articles
+                            Remote controlled <span class="highlight-name">Arduino car</span> through smartphone Bluetooth
                         </h5>
                         <div class="image-container" data-aos="fade-in" data-aos-ease="ease-in" data-aos-duration="1500">
-                            <img class="image" src="pictures/project2/project2.png" style="width: 100% ">
-                            <button type="button" style="color: black; border-color:black" onclick="window.open('https://github.com/nt7nguye/Stock-News-Analysis')" class="project-button btn" data-toggle="button" aria-pressed="false" autocomplete="off">
+                            <img class="image" src="pictures/project4.jpg" style="width: 100% ">
+                            <button type="button" onclick="window.open('https://www.youtube.com/watch?v=_5X3PrXl3KU&index=1&list=PLr3Z610v-DDoNGqz1Q9eh1Rw_Gl4K45bi')" class="project-button btn" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                WATCH THE RACE
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!---- Fourth project ----->
+                <div class="row">
+                    <div class="col-md-12" id="project1">
+                        <h4 class="project-title" data-aos="fade-in" data-aos-ease="ease-in" data-aos-duration="1500">
+                            Scheduler <span class="purpose">&#8212 Personal Project</span>
+                        </h4>
+                        <h5 class="description" data-aos="fade-in" data-aos-ease="ease-in" data-aos-duration="1500">
+                            A <span class="highlight-name">Visual Basic</span> program to generate high school class schedules for 900 students and teacher
+                        </h5>
+                        <div class="image-container" data-aos="fade-in" data-aos-ease="ease-in" data-aos-duration="1500">
+                            <img class="image" src="pictures/project3.PNG" style="width: 100% ">
+                            <button type="button" style="color: black; border-color:black" onclick="window.open('https://github.com/nt7nguye/Scheduler')" class="project-button btn" data-toggle="button" aria-pressed="false" autocomplete="off">
                                 LEARN MORE
                             </button>
                         </div>
                     </div>
                 </div>
-                
+
+                <p class="links" data-aos="fade-in" data-aos-ease="ease-in" data-aos-duration="1500">
+                    Check out my
+                    <a href="https://github.com/nt7nguye" target="_blank">GitHub</a>,
+                    <a href="https://www.linkedin.com/in/tan-nguyen-a69177145/" target="_blank">LinkedIn</a>, or
+                    <a href="" target="_blank">Resume</a>
+                    for more projects
+                </p>
+
+                <p class="links" data-aos="fade-in" data-aos-ease="ease-in" data-aos-duration="1500">
+                    Looking for your next developer? Contact me <a href="mailto:nt7nguye@uwaterloo.ca" target="_blank">here</a>
+                </p>
+
+                <p class="links" data-aos="fade-in" data-aos-ease="ease-in" data-aos-duration="1500">
+                    Let's build something great together
+                </p>
             </div>
         </div>
-
-
         <!---- AOS Plugin --->
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
+        <script>AOS.init();</script>
     </body>
 </html>
 
