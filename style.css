@@ -93,6 +93,26 @@
     .row .col-md-6, .jumbotron .skills .col-md-12{text-indent: 5%}
 }
 
+@media (min-width: 1500px){
+    body {
+        width: 100%;
+        font-size: 40px;
+    }
+    .container-fluid{font-size: 40px;}
+
+    #background1{height: 750px;}
+    #about{height: 900px;}
+    #projects{height: 3500px;}
+
+    .image-container{height: 400px;}
+
+    .container-fluid .jumbotron{width: 85%;}
+
+    #profile{width: 90%;}
+
+    .row .col-md-6, .jumbotron .skills .col-md-12{text-indent: 5%}
+}
+
 
 footer{
     margin-bottom:0;
