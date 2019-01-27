@@ -96,9 +96,9 @@
 @media (min-width: 1500px){
     body {
         width: 100%;
-        font-size: 40px;
+        font-size: 30px;
     }
-    .container-fluid{font-size: 40px;}
+    .container-fluid{font-size: 30px;}
 
     #background1{height: 750px;}
     #about{height: 900px;}
