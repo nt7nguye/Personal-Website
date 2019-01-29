@@ -93,7 +93,7 @@
     .row .col-md-6, .jumbotron .skills .col-md-12{text-indent: 5%}
 }
 
-@media (min-width: 1500px){
+@media (min-width: 1900px){
     body {
         width: 100%;
         font-size: 30px;
